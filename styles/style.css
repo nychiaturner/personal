@@ -1,16 +1,39 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
 
     h1 {color:green;}
     body {
         background-image:url(../images/1.jpg);
         background-size:cover;
-        font-size:300%;
+        font-size:500%;
         text-align:center;
     }
     img{width:25%;} 
-    h2 {color:red;}
-    li {color:blue;}
-    p  {color:blue;}
+    
+    h2 {color:red;
+        font-size:200%;
+    }
+    li {color:#7A007A;}
+    p  {color:#000052;}
     
     ul{
-        text-align:left;
+        text-align:center;
+        
     }
+    
+    .nav>li>a {
+  display: inline-block;
+  border-right:solid 1px white;
+}
+
+ .nav
+      { 
+          list-style-type:none;
+          background-color: DarkMagenta;
+          font-size:24px;
+      }
+      
+.navbar-default 
+{ 
+    background-color: inherit;
+    border: inherit;
+}
